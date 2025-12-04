@@ -13,6 +13,7 @@ class User extends Model<UserAttributes> implements UserAttributes {
   public email!: string;
   public password!: string;
   public username!: string;
+  public a?:string;
 }
 
 User.init({
